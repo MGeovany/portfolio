@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <script src="https://code.iconify.design/2/2.1.1/iconify.min.js"></script>
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>mgeovany.dev</title>
+  <meta property="og:title" content="Marlon Castro's Portfolio" />
+  <meta property="og:type" content="Portfolio" />
+  <meta property="og:url" content="https://github.com/MGeovany/portfolio/" />
+  <meta property="og:site_name" content="github.com" />
+  <meta property="og:description"
+    content="Portfolio with my bio, skils, frameworks, my contact and  all my available projects in production" />
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/img/dev32.png" />
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Marlon Castro</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <!-- <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li> -->
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="./assets/pdf/Marlon_Geovany_Castro_Web_Developer.pdf" class="nav__link"
+              target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">
+          <h1 class="home__title space__line">
+            <span class="home__title-color">Hi,</span><br />I'am <span class="home__title-color">Marlon
+              Castro</span><br />
+            Full Stack Developer 🚀
+          </h1>
+        </h1>
+        <div class="home__btn">
+          <a href="mailto:marlongeo1999@gmail.com?Subject=I'm%20Interested%20working%20with%20you!"
+            class="button">Contact <i class="ml__2 fa-solid fa-envelope fa-bounce"
+              style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; --fa-bounce-rebound: 0;"></i></a>
+        </div>
+        <div class="home__social">
+          <a href="https://github.com/mgeovany" class="home__social-icon"><i
+              class="bx bxl-github skills__icon "></i></a>
+          <a href="https://instagram.com/m_geovany_" class="home__social-icon">
+            <i class="bx bxl-instagram skills__icon"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/m-geovany/" class="home__social-icon">
+            <i class="bx bxl-linkedin skills__icon"></i>
+          </a>
+        </div>
+
+      </div>
+
+
+      <div class="home__img">
+        <img src="assets/img/home.png" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <img src="assets/img/mgeovany.jpg" alt="memoji✌🏻" />
+        </div>
+
+        <div>
+          <h2 class="about__subtitle space__line">My name is Marlon Geovany Castro Mejia</h2>
+          <p class="about__text space__line">
+            Hi I am a software engineer currently working in a US Startup, Intersection co. I would love to share
+            knowledge and have freelance projects to expand knowledge and experience and maybe we can help each other.
+            <br />
+            <br />
+            I am about to graduate from the University of CEUTEC with a Bachelors in Informatic Engineering.
+          </p>
+          <p class="about__text ">
+            <br>
+          <ul class="space__line">
+            <li>
+              <i class="bx bx-check-circle" style="color: #0bcf57"></i>
+              Native Spanish
+            </li>
+            <li>
+              <a href="https://www.efset.org/cert/VVDGX5" target="_blank" style="color: #333">
+                <i class="bx bx-check-circle" style="color: #0bcf57"></i>
+                EF SET SCORE C1 Advanced score: 66/100
+              </a>
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills__container bd-grid">
+        <div>
+          <h2 class="skills__subtitle">Profesional Skills</h2>
+          <p class="skills__text space__line">
+            I have taken many courses to prepare myself professionally in the world of software development, these are
+            some technologies that I handle.
+          </p>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-html5 skills__icon"></i>
+              <span class="skills__name">HTML5</span>
+            </div>
+            <div class="skills__bar skills__html"></div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-css3 skills__icon"></i>
+              <span class="skills__name">CSS3</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-sass skills__icon"></i>
+              <span class="skills__name">SASS</span>
+            </div>
+            <div class="skills__bar skills__css"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="bx bxl-javascript skills__icon"></i>
+              <span class="skills__name">JAVASCRIPT</span>
+            </div>
+            <div class="skills__bar skills__js"></div>
+            <div>
+              <span class="skills__percentage">90%</span>
+            </div>
+          </div>
+
+
+
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="iconify skills__icon" data-icon="cib:typescript" style="color: #333" data-width="24"
+                data-height="24"> </i>
+              <span class="skills__name ml__2"> TYPESCRIPT</span>
+            </div>
+            <div class="skills__bar skills__ts"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="fa-brands fa-git-alt skills__icon"></i>
+              <span class="skills__name ml__2">Git</span>
+            </div>
+            <div class="skills__bar skills__git"></div>
+            <div>
+              <span class="skills__percentage">70%</span>
+            </div>
+          </div>
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="fab fa-node skills__icon"></i>
+              <span class="skills__name ml__2">Node</span>
+            </div>
+            <div class="skills__bar skills__node"></div>
+            <div>
+              <span class="skills__percentage">60%</span>
+            </div>
+          </div>
+
+
+          <div class="skills__data">
+            <div class="skills__names">
+              <i class="iconify skills__icon " data-icon="cib:mysql" style="color: #333" data-width="24"
+                data-height="24"></i>
+              <span class="skills__name ml__2">MySQL</span>
+            </div>
+            <div class="skills__bar skills__mysql"></div>
+            <div>
+              <span class="skills__percentage">60%</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!--===== FRAMEWORKS =====-->
+          <section class="about section" id="frameworks">
+            <h2 class="section-title">Main Skills</h2>
+            <h2 align="center" class="skills__subtitle">Main Frameworks & libraries</h2>
+            <p align="center" class="skills__text space__line">
+              These are the main frameworks/libraries that I work with; day by day I keep updating myself.<br />
+              <br />
+            </p>
+            <div class="frameworks__container">
+
+              <h2 class="skills__subtitle home__title-color center"><span class="iconify mr__2"
+                  data-icon="vscode-icons:file-type-reactjs" style="color: #449c45;"></span>React JS</h2>
+
+              <h2 class="skills__subtitle home__title-color center"><span class="iconify mr__2"
+                  data-icon="logos:bootstrap" style="color: #449c45;"></span>Bootstrap</h2>
+              <h2 class="skills__subtitle home__title-color center">
+                <span class="iconify mr__2" data-icon="logos:redux" style="color: #449c45;"></span>Redux
+              </h2>
+              <h2 class="skills__subtitle home__title-color center">
+                <span class="iconify mr__2" data-icon="bxl:mongodb" style="color: #449c45;"></span>Mongo DB
+              </h2>
+              <h2 class="skills__subtitle home__title-color center">
+                <span class="iconify mr__2" data-icon="logos:firebase"></span> FireBase
+              </h2>
+              <h2 class="skills__subtitle home__title-color center">
+                <span class="iconify mr__2" data-icon="vscode-icons:file-type-jest-snapshot"
+                  style="color: #449c45;"></span>Jest
+              </h2>
+              <h2 class="skills__subtitle home__title-color center">
+                <span class="iconify mr__2" data-icon="logos:testing-library" style="color: #449c45;"></span>Testing
+                Library
+              </h2>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!--===== WORK 1200 =====-->
+      <section class="work section" id="work">
+        <h2 class="section-title">Projects</h2>
+        <div class="work__container bd-grid">
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>CEI | Centro de Emprendimiento e innovacion</h2>
+              <a class="btn-1" style="color:white" href="cei-web-portal-mgeovany.vercel.app//">Web page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://github.com/MGeovany/cei-web-portal">Code</a>
+            </div>
+            <img src="assets/img/cei.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>BiDESKU 📊</h2>
+              <p>
+                Professional graphic design service
+              </p>
+              <a class="btn-1" style="color:white" href="https://github.com/MGeovany/bidesku-v2">Web page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="bidesku.vercel.app">Code</a>
+            </div>
+            <img src="assets/img/bidesku.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Weather App 🌥️</h2>
+              <p>
+                Forecast of some important cities.
+              </p>
+              <a class="btn-1" style="color:white" href="https://weather-app-mgeovany.vercel.app">Web page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://github.com/MGeovany/weather-app">Code</a>
+            </div>
+            <img src="assets/img/weather.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Disney + Clone 🐭</h2>
+
+              <a class="btn-1" style="color:white" href="https://disney-two-steel.vercel.app/home">Web
+                page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://github.com/MGeovany/Disney-Clone-G">Code</a>
+            </div>
+            <img src="assets/img/disney.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>BIDESKU + ApexChartJs + Firebase📈</h2>
+              <a class="btn-1" style="color:white" href="https://github.com/MGeovany/BiDeskU">Web page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://github.com/MGeovany/BiDeskU">Code</a>
+            </div>
+            <img src="assets/img/bideskuv1.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Modern UI Login 🖌️</h2>
+              <p>
+                Login page with modern UI.
+              </p>
+              <a class="btn-1" style="color:white" href="https://codepen.io/MGeovany/full/JjMBrOr">Web page</a>
+              <br>
+              <a class="login-btn" style="color:white"
+                href="https://codepen.io/MGeovany/pen/JjMBrOr?editors=0011">Code</a>
+            </div>
+            <img src="assets/img/login.png">
+          </div>
+
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Web Blog Modern UI Design 📸</h2>
+              <p>
+                Web blog with modern UI.
+              </p>
+              <a class="btn-1" style="color:white" href="https://codepen.io/MGeovany/full/BaJZqXB">Web
+                page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://codepen.io/MGeovany/pen/BaJZqXB">Code</a>
+            </div>
+            <img src="assets/img/blog.png">
+          </div>
+
+          <!-- Rick / Morty-->
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Simple ToDo App</h2>
+              <p>
+                Simple ToDo App with Javascript
+              </p>
+              <a class="btn-1" style="color:white" href="https://codepen.io/MGeovany/full/LYdxLmw">Web
+                page</a>
+              <br>
+              <a class="login-btn" style="color:white" href="https://codepen.io/MGeovany/pen/LYdxLmw">Code</a>
+            </div>
+            <img src="assets/img/todo.png">
+          </div>
+
+          <!-- NIKE MX-->
+          <div class="main_box circle ">
+            <div class="circle"></div>
+            <div class="content">
+              <h2>Playlist App with Mongo DB & Node Js</h2>
+              <p>
+                Api created and consumed by a React App.
+              </p>
+              <a class="login-btn" style="color:white" href="https://github.com/MGeovany/canciones-simple-app">Code</a>
+            </div>
+            <img src="assets/img/songs.png">
+          </div>
+        </div>
+      </section>
+
+
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="footer__social">
+            <h2 class="skills__subtitle">Contact me if you want to work together!</h2>
+            <div class="contact__social">
+
+              <a href="https://instagram.com/m_geovany_" class="home__social-icon home__social-icon">
+                <span class="iconify" data-icon="logos:instagram-icon"></span>
+              </a>
+              <a href="mailto:marlongeo1999@gmail.com?Subject=I'm%20Interested%20working%20with%20you!" class="home__social-icon">
+                <span class="iconify" data-icon="ant-design:mail" data-width="30px"></span>
+              </a>
+
+              <a href="https://github.com/m_geovany_" class="home__social-icon">
+                <i class="bx bxl-github skills__icon"></i>
+              </a>
+
+              <a href="https://wa.link/p97ljt" class="home__social-icon">
+                <i class="bx bxl-whatsapp skills__icon"></i>
+              </a>
+              
+              <a href="https://www.linkedin.com/in/m-geovany/" class="home__social-icon">
+                <i class="bx bxl-linkedin skills__icon"></i>
+              </a>
+            
+            </div>
+          </form>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Written with 💜</p>
+    
+    <p>&#169; 2022 copyright all right reserved</p>
+  </footer>
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="src/main.js"></script>
+</body>
+
+</html>
